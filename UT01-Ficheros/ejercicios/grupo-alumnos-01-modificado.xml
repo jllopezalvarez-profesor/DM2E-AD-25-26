@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><grupoAlumnos>
+        
+    <nombreGrupo>DM2E</nombreGrupo>
+        
+    <anioEscolar>25-26</anioEscolar>
+        
+    <alumnos>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.818953389">
+                        
+            <dni>330-39-5003</dni>
+                        
+            <nombre>Ronny</nombre>
+                        
+            <apellido>Rath</apellido>
+                        
+            <fechaNacimiento>11/01/1996</fechaNacimiento>
+                    
+            <nombreCompleto>Ronny Rath</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.821528345">
+                        
+            <dni>329-09-7895</dni>
+                        
+            <nombre>Spencer</nombre>
+                        
+            <apellido>Block</apellido>
+                        
+            <fechaNacimiento>19/10/2000</fechaNacimiento>
+                    
+            <nombreCompleto>Spencer Block</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.821735422">
+                        
+            <dni>791-97-0439</dni>
+                        
+            <nombre>Nichelle</nombre>
+                        
+            <apellido>Sanford</apellido>
+                        
+            <fechaNacimiento>07/03/1989</fechaNacimiento>
+                    
+            <nombreCompleto>Nichelle Sanford</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.821877478">
+                        
+            <dni>272-80-6728</dni>
+                        
+            <nombre>Millard</nombre>
+                        
+            <apellido>Koch</apellido>
+                        
+            <fechaNacimiento>08/01/2000</fechaNacimiento>
+                    
+            <nombreCompleto>Millard Koch</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822007172">
+                        
+            <dni>507-62-1318</dni>
+                        
+            <nombre>Brant</nombre>
+                        
+            <apellido>Bogisich</apellido>
+                        
+            <fechaNacimiento>06/03/2003</fechaNacimiento>
+                    
+            <nombreCompleto>Brant Bogisich</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822119476">
+                        
+            <dni>275-38-6657</dni>
+                        
+            <nombre>Sanford</nombre>
+                        
+            <apellido>Orn</apellido>
+                        
+            <fechaNacimiento>26/10/1987</fechaNacimiento>
+                    
+            <nombreCompleto>Sanford Orn</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822250637">
+                        
+            <dni>068-93-1729</dni>
+                        
+            <nombre>Grace</nombre>
+                        
+            <apellido>Bartoletti</apellido>
+                        
+            <fechaNacimiento>12/01/2002</fechaNacimiento>
+                    
+            <nombreCompleto>Grace Bartoletti</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822368458">
+                        
+            <dni>437-65-6429</dni>
+                        
+            <nombre>Laverne</nombre>
+                        
+            <apellido>Hackett</apellido>
+                        
+            <fechaNacimiento>16/07/1995</fechaNacimiento>
+                    
+            <nombreCompleto>Laverne Hackett</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822480971">
+                        
+            <dni>816-96-6630</dni>
+                        
+            <nombre>Silvana</nombre>
+                        
+            <apellido>Dibbert</apellido>
+                        
+            <fechaNacimiento>11/03/1990</fechaNacimiento>
+                    
+            <nombreCompleto>Silvana Dibbert</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822622468">
+                        
+            <dni>601-95-8791</dni>
+                        
+            <nombre>Debbi</nombre>
+                        
+            <apellido>Herman</apellido>
+                        
+            <fechaNacimiento>28/04/1989</fechaNacimiento>
+                    
+            <nombreCompleto>Debbi Herman</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822733096">
+                        
+            <dni>455-56-8703</dni>
+                        
+            <nombre>Rodrick</nombre>
+                        
+            <apellido>Lind</apellido>
+                        
+            <fechaNacimiento>07/05/1985</fechaNacimiento>
+                    
+            <nombreCompleto>Rodrick Lind</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.822838835">
+                        
+            <dni>113-47-8526</dni>
+                        
+            <nombre>Rossie</nombre>
+                        
+            <apellido>Dare</apellido>
+                        
+            <fechaNacimiento>20/11/1977</fechaNacimiento>
+                    
+            <nombreCompleto>Rossie Dare</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823005056">
+                        
+            <dni>886-54-2598</dni>
+                        
+            <nombre>Shellie</nombre>
+                        
+            <apellido>Rolfson</apellido>
+                        
+            <fechaNacimiento>29/01/1995</fechaNacimiento>
+                    
+            <nombreCompleto>Shellie Rolfson</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823101226">
+                        
+            <dni>840-97-9410</dni>
+                        
+            <nombre>Cherilyn</nombre>
+                        
+            <apellido>Bogan</apellido>
+                        
+            <fechaNacimiento>29/08/1981</fechaNacimiento>
+                    
+            <nombreCompleto>Cherilyn Bogan</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823167295">
+                        
+            <dni>083-25-0512</dni>
+                        
+            <nombre>Audrea</nombre>
+                        
+            <apellido>Kassulke</apellido>
+                        
+            <fechaNacimiento>20/03/1999</fechaNacimiento>
+                    
+            <nombreCompleto>Audrea Kassulke</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823229733">
+                        
+            <dni>055-47-3816</dni>
+                        
+            <nombre>Jami</nombre>
+                        
+            <apellido>Powlowski</apellido>
+                        
+            <fechaNacimiento>24/10/1980</fechaNacimiento>
+                    
+            <nombreCompleto>Jami Powlowski</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823331910">
+                        
+            <dni>091-77-2328</dni>
+                        
+            <nombre>Devon</nombre>
+                        
+            <apellido>Wiza</apellido>
+                        
+            <fechaNacimiento>08/07/2004</fechaNacimiento>
+                    
+            <nombreCompleto>Devon Wiza</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823400214">
+                        
+            <dni>426-76-7383</dni>
+                        
+            <nombre>Linsey</nombre>
+                        
+            <apellido>Ritchie</apellido>
+                        
+            <fechaNacimiento>13/10/2004</fechaNacimiento>
+                    
+            <nombreCompleto>Linsey Ritchie</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823488353">
+                        
+            <dni>530-52-7557</dni>
+                        
+            <nombre>Hung</nombre>
+                        
+            <apellido>Bailey</apellido>
+                        
+            <fechaNacimiento>01/11/1980</fechaNacimiento>
+                    
+            <nombreCompleto>Hung Bailey</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823551349">
+                        
+            <dni>610-75-0517</dni>
+                        
+            <nombre>Yun</nombre>
+                        
+            <apellido>Kozey</apellido>
+                        
+            <fechaNacimiento>14/03/1991</fechaNacimiento>
+                    
+            <nombreCompleto>Yun Kozey</nombreCompleto>
+        </alumno>
+                
+        <alumno fechaModificacion="2025-10-09T19:55:53.823645983">
+                        
+            <dni>374-29-5200</dni>
+                        
+            <nombre>Josh</nombre>
+                        
+            <apellido>Goldner</apellido>
+                        
+            <fechaNacimiento>15/04/2000</fechaNacimiento>
+                    
+            <nombreCompleto>Josh Goldner</nombreCompleto>
+        </alumno>
+            
+    </alumnos>
+    
+</grupoAlumnos>
