@@ -17,13 +17,24 @@ public class Ejemplo01 {
                     System.out.println("Géneros encontrados:");
                     while (resultSet.next()) {
                         //System.out.printf("%s - %s \n",  resultSet.getString(1), resultSet.getString(2) );
-                        System.out.printf("%s - %s \n", resultSet.getString("genre_id"), resultSet.getString("name"));
+                        //System.out.printf("%s - %s \n", resultSet.getString("genre_id"), resultSet.getString("name"));
+
+                        int genreId =  resultSet.getInt("genre_id");
+                        // La siguiente línea falla porque el nombre no puede convertirse a int
+                        // int name = resultSet.getInt("name");
+                        String name = resultSet.getString("name");
+
+                        System.out.printf("%s - %s \n", genreId, name);
+
+
+
                     }
                 }
             }
 
         } catch (SQLException e) {
-            System.out.printf("Error connecting to database at: %s\n", e.getMessage());
+            System.out.println("Error");
+            e.printStackTrace();
         }
     }
 
