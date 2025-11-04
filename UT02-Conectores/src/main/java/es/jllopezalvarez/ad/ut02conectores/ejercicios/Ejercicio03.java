@@ -3,7 +3,7 @@ package es.jllopezalvarez.ad.ut02conectores.ejercicios;
 import java.sql.*;
 import java.util.Scanner;
 
-public class Ejercicio01 {
+public class Ejercicio03 {
     private static final String CONNECTION_STRING = "jdbc:postgresql://localhost:5432/chinook";
     private static final String USERNAME = "chinook";
     private static final String PASSWORD = "chinook";
