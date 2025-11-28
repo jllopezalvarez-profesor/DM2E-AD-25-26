@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="reLastEntityCreationPackage" value="src/main/java/es/jllopezalvarez/ad/ejemplosorm/entities" />
+    <option name="reverseEngineeringLastDbConnectionId" value="fa0bd6ba-20a6-45fb-b74a-5b3f40b1bdc8" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="ejemplo-02-hibernate" name="chinook" framework="JPA" ormUnit="ejemplo-02-hibernate:default" />
+    </persistence-units>
+  </component>
+</project>

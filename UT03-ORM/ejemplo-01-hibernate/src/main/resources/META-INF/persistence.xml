@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
+             version="3.1">
+  <persistence-unit name="chinook">
+      <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+      <properties>
+          <property name="connection.url" value="jdbc:postgre://localhost/chinook"/>
+          <property name="connection.username" value="chinook"/>
+          <property name="connection.password" value="chinook"/>
+
+          <!--          <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>-->
+
+      </properties>
+
+  </persistence-unit>
+</persistence>
