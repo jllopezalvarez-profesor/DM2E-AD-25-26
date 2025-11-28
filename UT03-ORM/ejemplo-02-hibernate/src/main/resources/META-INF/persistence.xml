@@ -5,6 +5,8 @@
              version="3.2">
     <persistence-unit name="chinook">
         <class>es.jllopezalvarez.ad.ejemplosorm.entities.Genre</class>
+        <class>es.jllopezalvarez.ad.ejemplosorm.entities.Artist</class>
+        <class>es.jllopezalvarez.ad.ejemplosorm.entities.Album</class>
         <properties>
             <!--          <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>-->
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/chinook"/>
