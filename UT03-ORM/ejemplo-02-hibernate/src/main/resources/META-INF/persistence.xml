@@ -7,6 +7,9 @@
         <class>es.jllopezalvarez.ad.ejemplosorm.entities.Genre</class>
         <class>es.jllopezalvarez.ad.ejemplosorm.entities.Artist</class>
         <class>es.jllopezalvarez.ad.ejemplosorm.entities.Album</class>
+        <class>es.jllopezalvarez.ad.ejemplosorm.entities.MediaType</class>
+        <class>es.jllopezalvarez.ad.ejemplosorm.entities.Playlist</class>
+        <class>es.jllopezalvarez.ad.ejemplosorm.entities.Track</class>
         <properties>
             <!--          <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>-->
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/chinook"/>

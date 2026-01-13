@@ -26,14 +26,18 @@ public class Ejemplo02CrearUnObjeto {
             em.persist(newGenre);
 
             newGenre.setGenreName("Este nombre es nuevo, pero cambiado");
-            // Modificar el nombre
-            em.merge(newGenre);
+            // Forzar la sincronización del EM con la BD
+            em.flush();
 
-            System.out.println("Después de guardar");
+            System.out.println("Después de sincronizar");
             System.out.println(newGenre);
 
 
             em.getTransaction().commit();
+
+            em.clear();
+
+            System.out.println("Después del commit");
 
 
         }

@@ -9,14 +9,27 @@ public class Ejemplo01LeerUnObjeto {
 
 
     public static void main(String[] args) {
-        try(
-                EntityManagerFactory emf = Persistence.createEntityManagerFactory("chinook");
-                EntityManager em = emf.createEntityManager()){
+        // Abrir EntityManager para la unidad de persistencia
+        try (EntityManagerFactory emf = Persistence.createEntityManagerFactory("chinook");
+             EntityManager em = emf.createEntityManager()) {
 
             Genre genre = em.find(Genre.class, 1L);
 
             System.out.println(genre);
 
         }
+    }
+
+    private Genre readAndDetach(){
+        try (EntityManagerFactory emf = Persistence.createEntityManagerFactory("chinook");
+             EntityManager em = emf.createEntityManager()) {
+
+            Genre genre = em.find(Genre.class, 1L);
+
+            return genre;
+
+        }
+
+
     }
 }
