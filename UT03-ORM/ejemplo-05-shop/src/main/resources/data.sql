@@ -4,6 +4,8 @@ insert into category(name)
 values ('Barcos');
 insert into category(name)
 values ('Coches');
+insert into category(name)
+values('Trenes');
 
 insert into brand(brand_id, name)
 values ('M1', 'Marca 1');
