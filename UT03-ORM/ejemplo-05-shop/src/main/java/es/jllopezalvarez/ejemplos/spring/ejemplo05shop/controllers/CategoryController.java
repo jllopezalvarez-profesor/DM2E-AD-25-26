@@ -70,6 +70,20 @@ public class CategoryController {
 
     }
 
+    @GetMapping("/byname/{name}")
+    public ResponseEntity<List<CategoryDto>> findByName(@PathVariable String name){
+        List<Category> categories = categoryService.findByName(name);
+        List<CategoryDto> categoriesDtos = categories.stream().map(this::map).toList();
+        return ResponseEntity.ok(categoriesDtos);
+    }
+
+    @GetMapping("/bynamecontaining/{name}")
+    public ResponseEntity<List<CategoryDto>> findByNameContaining(@PathVariable String name){
+        List<Category> categories = categoryService.findByNameContaining(name);
+        List<CategoryDto> categoriesDtos = categories.stream().map(this::map).toList();
+        return ResponseEntity.ok(categoriesDtos);
+    }
+
 
     private CategoryDto map(Category category) {
         return CategoryDto.builder()

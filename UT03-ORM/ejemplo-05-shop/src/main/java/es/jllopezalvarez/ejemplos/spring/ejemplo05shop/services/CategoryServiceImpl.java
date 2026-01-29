@@ -42,5 +42,14 @@ public class CategoryServiceImpl implements CategoryService {
         return categoryRepository.existsById(categoryId);
     }
 
+    @Override
+    public List<Category> findByName(String name){
+        return categoryRepository.findAllByNameIgnoreCase(name);
+    }
+
+    @Override
+    public List<Category> findByNameContaining(String name){
+        return categoryRepository.findAllByNameContainingIgnoreCase(name);
+    }
 
 }
