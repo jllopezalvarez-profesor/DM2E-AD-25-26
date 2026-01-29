@@ -13,7 +13,7 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
 
     List<Category> findAllByNameContainingIgnoreCase(String name);
 
-    List<Category> findAllByNameContainingAndCategoryIdGreaterThanOrderByNameAllIgnoreCase(String name, Long id)
+    List<Category> findAllByNameContainingAndCategoryIdGreaterThanOrderByNameAllIgnoreCase(String name, Long id);
 
 
 }
