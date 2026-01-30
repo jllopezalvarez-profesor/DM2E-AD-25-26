@@ -6,5 +6,9 @@ import java.util.List;
 
 public interface ProductService {
 
-    List<Product> findByBrand(String brandId);
+    List<Product> findByBrandId(String brandId);
+
+    List<Product> findByBrandName(String brandId);
+
+    List<Product> findByBrandIdAndMaxPrice(String brandId, Double maxPrice);
 }
