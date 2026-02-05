@@ -2,8 +2,10 @@ package es.jllopezalvarez.ejemplos.spring.ejemplo05shop.controllers;
 
 import es.jllopezalvarez.ejemplos.spring.ejemplo05shop.dto.ProductDto;
 import es.jllopezalvarez.ejemplos.spring.ejemplo05shop.entities.Product;
+import es.jllopezalvarez.ejemplos.spring.ejemplo05shop.dto.SimpleProductInfoDto;
 import es.jllopezalvarez.ejemplos.spring.ejemplo05shop.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -54,6 +56,32 @@ public class ProductController {
         return ResponseEntity.ok(List.of());
     }
 
+    @GetMapping("/getAllInfo")
+    ResponseEntity<List<SimpleProductInfoDto>> findAllSimpleProductInfo(){
+        return ResponseEntity.ok(productService.findAllSimpleProductInfo());
+    }
+
+
+    @GetMapping("/search")
+//    public ResponseEntity<Page<Product>> findProducts(
+            public ResponseEntity<Page<ProductDto>> findProducts(
+            @RequestParam(defaultValue = "") String productName,
+            @RequestParam(defaultValue = "0") Integer pageNumber,
+            @RequestParam(defaultValue = "5") Integer pageSize){
+
+        Page<Product> productsPage = productService.findProducts(productName, pageNumber, pageSize);
+
+
+        var mappedProductsPage = productsPage.map(this::map);
+
+        return ResponseEntity.ok(mappedProductsPage);
+
+
+
+
+    }
+
+
     private ProductDto map(Product product) {
         return ProductDto.builder()
                 .productId(product.getProductId())
@@ -62,4 +90,6 @@ public class ProductController {
                 .price(product.getPrice())
                 .build();
     }
+
+
 }
