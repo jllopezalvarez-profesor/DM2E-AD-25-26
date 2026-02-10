@@ -13,5 +13,6 @@ public class ProgrammerDto {
     private String documentNumber;
     private String firstName;
     private String lastName;
+    private String categoryName;
     private CategoryDto category;
 }

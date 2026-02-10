@@ -13,6 +13,7 @@ import java.util.Set;
 @Builder
 public class ProjectDto {
     private Integer projectId;
+//    private Integer algoQueNoHayEnLaClase;
     private String name;
     private String clientName;
     private Double expectedIncome;
