@@ -19,21 +19,14 @@ VALUES (1, '11111111A', 'Juan', 'Perez', 1),
        (9, '99999999I', 'Diego', 'Gómez', 4),
        (10, '10101010J', 'Elena', 'Díaz', 5);
 
--- Insertar clientes
-INSERT INTO client (cif, name)
-VALUES ('1234567A', 'Deloitte'),
-       ('1234567B', 'Movistar'),
-       ('1234567C', 'Mercadona');
-
-
-
 -- Insertar proyectos
-INSERT INTO project (project_id, client_id, expected_income, name, start_date)
-VALUES (1, 1,259800, 'Sistema de gestión de la retribución variable y beneficios para empleados',        '2023-07-01'),
-       (2, 2, 74000, 'Mantenimiento de cableado CPD de control de streaming', '2024-01-01'),
-       (3, 3, 457000, 'Plan de accesibilidad integral', null),
-       (4, 1, 19800, 'Auditoría de accesibilidad tienda online', '2024-06-15'),
-       (5,  2, 180000, 'Mantenimiento evolutivo plataformas Por Talento / Integra', '2024-03-01');
+INSERT INTO project (project_id, client_name, expected_income, name, start_date)
+VALUES (1, 'Deloitte', 259800, 'Sistema de gestión de la retribución variable y beneficios para empleados',
+        '2023-07-01'),
+       (2, 'Movistar', 74000, 'Mantenimiento de cableado CPD de control de streaming', '2024-01-01'),
+       (3, 'Ministerio de Economía y Hacienda', 457000, 'Plan de accesibilidad integral', null),
+       (4, 'Mercadona', 19800, 'Auditoría de accesibilidad tienda online', '2024-06-15'),
+       (5, 'Fundación ONCE', 180000, 'Mantenimiento evolutivo plataformas Por Talento / Integra', '2024-03-01');
 
 -- Insertar asignaciones de programadores a proyectos
 INSERT INTO project_programmer (programmer_id, project_id)
